@@ -16,9 +16,9 @@ import org.jsoup.select.Elements;
 
 public class OpenStackMeetingsServiceImpl implements OpenStackMeetingsService {
 	
-//	public OpenStackMeetingsServiceImpl() {
-//		
-//	}
+	public OpenStackMeetingsServiceImpl() {
+		
+	}
 	
 	public String welcome() {
 		return "Welcome to Open Stack meeting statistics calculation page. " + 

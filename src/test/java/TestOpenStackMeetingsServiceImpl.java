@@ -16,6 +16,17 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
+public class TestOpenStackMeetingsServiceImpl {
+
+	OpenStackMeetingsServiceImpl osmService = null;
+	
+	@Before
+	public void setUp() {
+		osmService = new OpenStackMeetingsServiceImpl();
+	}
+	
+}
+
 
 
 /*

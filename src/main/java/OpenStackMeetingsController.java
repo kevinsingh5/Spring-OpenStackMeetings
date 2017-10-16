@@ -22,14 +22,13 @@ public class OpenStackMeetingsController {
 		
 	}
 	
-//	public OpenStackMeetingsController(OpenStackMeetingsService osmService) {
-//		this.osmService = osmService;
-//	}
+	public OpenStackMeetingsController(OpenStackMeetingsService osmService) {
+		this.osmService = osmService;
+	}
 	
 	// setter method for osmService
 	public void setOsmService(OpenStackMeetingsService osm) {
 		this.osmService = osm;
-		//return osmService;
 	}
 	
 	// getter method for osmService
